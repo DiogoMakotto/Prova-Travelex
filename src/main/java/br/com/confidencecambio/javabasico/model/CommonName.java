@@ -1,7 +1,7 @@
 package br.com.confidencecambio.javabasico.model;
 
- //As classes "Cliente", "Gerente" e "Robo" herdam de "Pessoa" e definem apenas o construtor correspondente.
- // As funções "getPrimeiroNome", "getUltimoNome", "getNomeCompleto" e "getNomeAbreviado" são definidas em "Pessoa"
+ //As classes "Cliente", "Gerente" e "Robo" herdam de "CommonName" e definem apenas o construtor correspondente.
+ // As funções "getPrimeiroNome", "getUltimoNome", "getNomeCompleto" e "getNomeAbreviado" são definidas em "CommonName"
  // e podem ser chamadas diretamente a partir das instâncias de qualquer uma das classes filhas.
 public class CommonName {
         protected String nome;
